@@ -1,7 +1,10 @@
-package edu.usfca.cs.cs245;
+//package edu.usfca.cs.cs245;
 
 public class BinaryIterativeSearch implements Practice2Search {
 
+	/*
+	Remove all TODO's from code before final submission
+	*/
 	public String searchName() {
 		// TODO Auto-generated method stub
 		return "binary-iterative";

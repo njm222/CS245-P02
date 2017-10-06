@@ -1,4 +1,4 @@
-package edu.usfca.cs.cs245;
+//package edu.usfca.cs.cs245;
 
 public class BinaryRecursiveSearch implements Practice2Search {
 
@@ -7,6 +7,11 @@ public class BinaryRecursiveSearch implements Practice2Search {
 		return "binary-recursive";
 	}
 
+
+	/*
+	There is no reason to declare min and max if you just pass them into another functino
+	should look like --> return search(arr, target, 0, arr.length -1);
+	*/
 	public int search(int[] arr, int target) {
 		// TODO Auto-generated method stub
 		int min = 0;
